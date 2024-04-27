@@ -1,14 +1,13 @@
 # provider plugin details
-#terraform {
- # required_providers {
-  #  aws = {
-   #   source  = "hashicorp/aws"
-    #  version = "~> 3.0"
+terraform {
+  required_providers {
+    aws = {
+     source  = "hashicorp/aws"
+     version = "~> 3.0"
     }
   }
 }
-# Hello world
-#welcome
+
 # provider  details
 provider "aws" {
   region = "us-east-1"
